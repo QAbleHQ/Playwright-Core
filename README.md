@@ -35,7 +35,7 @@ Simple to Use Framework for PlayWright developed by QAble
   
 5. Execute test using below command 
 
-   `  npm playwright test tests/test.spec.js --headed `
+   `  npx playwright test tests/test.spec.js --headed `
 
 **Folder Structure**
 
