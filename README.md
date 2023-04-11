@@ -31,7 +31,7 @@ Simple to Use Framework for PlayWright developed by QAble
   ```
   Update below fields in playwtight.confif.js  
     a. update "baseURL" with your url
-   `for eg. baseURL: 'http://www.webdriveruniversity.com/',`
+   for eg. baseURL: 'http://www.webdriveruniversity.com/',
     b. update 
        `testDir: './tests',`
   ```
@@ -40,7 +40,7 @@ Simple to Use Framework for PlayWright developed by QAble
 
 ```
 --main___
-		|____api
+	|____api
         |____web____
                     |__mouse.js
                     |__verify.js
