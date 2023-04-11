@@ -34,8 +34,9 @@ Simple to Use Framework for PlayWright developed by QAble
    `for eg. baseURL: 'http://www.webdriveruniversity.com/',`
     b. update 
        `testDir: './tests',`
+  ```
 
-Folder Structure
+**Folder Structure**
 
 ```
 --main___
@@ -57,4 +58,5 @@ Folder Structure
 --package-lock.json
 --package.json
 -- playwright.config.js
+
 ```
