@@ -19,7 +19,9 @@ Simple to Use Framework for PlayWright developed by QAble
         `npm init playwright@latest`
 
 3. Choose the below Congiguration
+
         ```
+	
         Do you want to use TypeScript or JavaScript? · JavaScript
         √ Where to put your end-to-end tests? · e2e
         √ Add a GitHub Actions workflow? (y/N) · false
@@ -33,8 +35,11 @@ Simple to Use Framework for PlayWright developed by QAble
     a. update "baseURL" with your url
    for eg. baseURL: 'http://www.webdriveruniversity.com/',
     b. update 
-       `testDir: './tests',`
+       testDir: './tests',
   ```
+  
+5. Execute test using below command 
+   `  npm playwright test tests/test.spec.js --headed `
 
 **Folder Structure**
 
