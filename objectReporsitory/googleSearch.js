@@ -20,9 +20,24 @@ export async function clickOnLearnButton(page) {
     await cli.clickOnButton(page, google.googleSearchbutton);
 }
 
+export async function clickOnContactUsButton(page) {
+    await cli.clickOnButton(page, google.contactUsButton);
+}
+
+export async function enterTextAtFirstName(page, text) {
+    await obj.fillText(page, google.firstName, text);
+}
+
+export async function clickOnFirstNameButton(page) {
+    await cli.clickOnButton(page, google.firstName);
+}
+
 module.exports = {
     enterTextAtSearchBox,
     getSearchButtonText,
     verifyLearnTextisEqualTo,
-    clickOnLearnButton
+    clickOnLearnButton,
+    clickOnContactUsButton,
+    enterTextAtFirstName,
+    clickOnFirstNameButton
 };
