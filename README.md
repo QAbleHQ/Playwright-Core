@@ -14,7 +14,7 @@ Simple to Use Framework for PlayWright developed by QAble
 
 1. Clone this repository into your local
 
-2. Navivate to root directory and execute this command 
+2. Navigate to root directory and execute this command 
         `npm init playwright@latest`
 
 3. Choose the below Configuration
